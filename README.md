@@ -1,3 +1,3 @@
-# efficient-chem
+# stoned-selfies
 
 Coming Soon ...
