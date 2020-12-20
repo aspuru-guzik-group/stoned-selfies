@@ -1,6 +1,6 @@
 # STONED-SELFIES
 This repository contains code for the paper: [Beyond Generative Models: Superfast Traversal, Optimization, Novelty, Exploration and Discovery (STONED) Algorithm for Molecules using SELFIES](https://chemrxiv.org/articles/preprint/Beyond_Generative_Models_Superfast_Traversal_Optimization_Novelty_Exploration_and_Discovery_STONED_Algorithm_for_Molecules_using_SELFIES/13383266). 
-
+By: AkshatKumar Nigam, Robert Pollice, Mario Krenn, Gabriel dos Passos Gomes, Alán Aspuru-Guzik
 
 <img align="center" src="./readme_docs/fig_main_algo.png"/>
 
