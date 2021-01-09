@@ -15,7 +15,7 @@ Before running the code, please ensure you have the following:
 - [numpy](https://pypi.org/project/numpy/)
 
 ## Experiment Navigator: 
-
+- Please have a look at our [Tutorial Document](https://github.com/aspuru-guzik-group/stoned-selfies/blob/main/stoned_selfies_tut.ipynb). There we provide quick details on how to form local chemical subspaces, generating chemical paths & obtaining median molecules. 
 - [Experiment B:](https://github.com/aspuru-guzik-group/stoned-selfies/blob/main/sim_search.py) Formation of Local Chemical Spaces 
 - [Experiment C:](https://github.com/aspuru-guzik-group/stoned-selfies/blob/main/GA_rediscover.py) Chemical Paths and Rediscovery (with a GA)
 - [Experiment D:](https://github.com/aspuru-guzik-group/stoned-selfies/blob/main/path_logP_QED.py) Interpolation via Chemical Path formation
