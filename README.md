@@ -24,3 +24,7 @@ Before running the code, please ensure you have the following:
 ## Questions, problems?
 Make a github issue 😄. Please be as clear and descriptive as possible. Please feel free to reach
 out in person: (akshat[DOT]nigam[AT]mail[DOT]utoronto[DOT]ca, rob[DOT]pollice[AT]utoronto[DOT]ca, mario[DOT]krenn[AT]utoronto[DOT]ca  , gabriel[DOT]gomes[AT]utoronto[DOT]ca)
+
+## License
+
+[Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)
