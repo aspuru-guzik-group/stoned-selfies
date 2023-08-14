@@ -1,0 +1,4 @@
+rdkit
+selfies
+numpy
+ipykernel
