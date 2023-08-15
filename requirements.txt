@@ -2,4 +2,7 @@ rdkit
 selfies
 numpy
 ipykernel
+matplotlib
+seaborn
+
 git+https://github.com/lich-uct/syba.git
