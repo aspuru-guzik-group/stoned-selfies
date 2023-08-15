@@ -9,8 +9,8 @@
 from setuptools import find_packages, setup
 
 PACKAGE_NAME = "stoned_selfies"
-PACKAGE_DIRS = "stoned_selfies"
-VERSION = None
+PACKAGE_DIRS = ["stoned_selfies"]
+VERSION = "0.0.1"
 RUNTIME_DEPS = None
 
 
@@ -19,7 +19,7 @@ def main():
         name=PACKAGE_NAME,
         version=VERSION,
         install_requires=RUNTIME_DEPS,
-        packages=find_packages(include=[PACKAGE_DIRS]),
+        packages=find_packages(include=PACKAGE_DIRS),
     )
 
 if __name__ == "__main__":
