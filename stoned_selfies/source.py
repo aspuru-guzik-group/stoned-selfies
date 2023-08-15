@@ -1,26 +1,28 @@
-import time 
+import os
 import selfies
 import rdkit
-import random
 import numpy as np
 import random
-from rdkit import Chem
+from random import randrange
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 from selfies import encoder, decoder
+
+from rdkit import Chem
 from rdkit.Chem import MolFromSmiles as smi2mol
+from rdkit.Chem import MolToSmiles as mol2smi
 from rdkit.Chem import AllChem
 from rdkit.DataStructs.cDataStructs import TanimotoSimilarity
 from rdkit.Chem import Mol
 from rdkit.Chem.AtomPairs.Sheridan import GetBPFingerprint, GetBTFingerprint
 from rdkit.Chem.Pharm2D import Generate, Gobbi_Pharm2D
 from rdkit.Chem import Draw
-
-from rdkit.Chem import MolToSmiles as mol2smi
+from rdkit.Chem import Descriptors
 from rdkit import RDLogger
 
-import matplotlib.pyplot as plt
-
 from syba.syba import SybaClassifier
-
 
 RDLogger.DisableLog('rdApp.*')
 
@@ -351,33 +353,7 @@ def mutate_selfie(selfie, max_molecules_len, write_fail_cases=False):
                 f.close()
     
     return (selfie_mutated, smiles_canon)
-import os
-import numpy as np 
-import random
-from random import randrange
-import matplotlib.pyplot as plt
-import rdkit
-from rdkit.Chem import MolFromSmiles as smi2mol
-from rdkit.Chem import MolToSmiles as mol2smi
-from rdkit import Chem
-from rdkit.Chem import AllChem
-from rdkit.DataStructs.cDataStructs import TanimotoSimilarity
-from selfies import encoder, decoder 
 
-
-import seaborn as sns
-import selfies
-import random
-import numpy as np
-from selfies import encoder, decoder
-
-from rdkit import Chem
-from rdkit.Chem import Descriptors
-from rdkit.Chem import AllChem
-from rdkit.DataStructs.cDataStructs import TanimotoSimilarity
-
-from rdkit import RDLogger
-RDLogger.DisableLog('rdApp.*')
 
 def get_ECFP4(mol):
     ''' Return rdkit ECFP4 fingerprint object for mol
