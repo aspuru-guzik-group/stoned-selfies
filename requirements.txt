@@ -2,3 +2,4 @@ rdkit
 selfies
 numpy
 ipykernel
+git+https://github.com/lich-uct/syba.git
