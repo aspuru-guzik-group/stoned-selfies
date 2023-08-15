@@ -19,7 +19,7 @@ def main():
         name=PACKAGE_NAME,
         version=VERSION,
         install_requires=RUNTIME_DEPS,
-        packages=find_packages(include=PACKAGE_DIRS),
+        packages=find_packages(include=[PACKAGE_DIRS]),
     )
 
 if __name__ == "__main__":
