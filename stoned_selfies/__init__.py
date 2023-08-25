@@ -1,3 +1,2 @@
 
 from stoned import StonedChemicalSubspace
-from fingerprints import FingerprintCalculator
