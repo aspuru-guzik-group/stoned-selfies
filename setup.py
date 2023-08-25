@@ -10,7 +10,7 @@ from setuptools import find_packages, setup
 
 PACKAGE_NAME = "stoned_selfies"
 PACKAGE_DIRS = ["stoned_selfies"]
-VERSION = "0.0.1"
+VERSION = "0.1.0"
 RUNTIME_DEPS = None
 
 
